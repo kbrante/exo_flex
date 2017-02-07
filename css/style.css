@@ -1,24 +1,19 @@
-main {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: stretch;
-    height: 45em;
-}
+body {
 
+}
 header {
     width: 100%;
 }
-
 ul {
     display: flex;
     background-color: rgb(2, 168, 136);
     justify-content: space-around;
     align-items: center;
     height: 10em;
+    padding: 0
 }
 li {
-    margin: 2em;
+    margin: 1em;
     list-style: none;
     background-color: rgb(100, 172, 53);
     padding: 1em;
@@ -29,6 +24,13 @@ a {
     text-decoration: none;
     color: black;
 }
+main {
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+    height: 50em
+
+}
 
 aside {
     width: 20%;
@@ -36,6 +38,7 @@ aside {
     border-radius: 2em;
     text-align: center;
     order: 1;
+    flex-wrap: wrap;
 
 }
 
