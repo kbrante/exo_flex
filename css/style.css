@@ -1,0 +1,19 @@
+ul {
+    display: flex;
+    background-color: rgb(2, 168, 136);
+    justify-content: space-around;
+    align-items: stretch;
+    height: 10em;
+}
+li {
+    margin: 2em;
+    list-style: none;
+    background-color: rgb(100, 172, 53);
+    padding: 1em;
+
+
+}
+a {
+    text-decoration: none;
+    color: black;
+}
